@@ -1,9 +1,13 @@
+/build/controller
+/build/services
+/build/routes
+build/index.js
+
 # Created by https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,linux,macos
 
 ### Linux ###
 *~
-
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
 
@@ -217,7 +221,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
 
-/build/controller
-/build/services
-/build/routes
-build/index.js
+
