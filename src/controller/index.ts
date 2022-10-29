@@ -5,7 +5,10 @@ const index = (_req: Request, res: Response): void => res.sendFile(page('../view
 
 const form = (_req: Request, res: Response): void => res.sendFile(page('../views/form.html'))
 
-const notFound = (_req: Request, res: Response): void => res.sendFile(page('../views/notFound.html'))
+const notFound = (_req: Request, res: Response): void => {
+  res.statusCode = 404
+  res.sendFile(page('../views/notFound.html'))
+}
 
 export default {
   index,
